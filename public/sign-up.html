@@ -7,22 +7,23 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 </head>
 <body class="font-body bg-gray-200"> 
-        <div class="my-32 bg-white border-2 border-white w-3/6 mx-auto h-4/5 shadow-lg">
+        <div class="my-32 bg-white border-2 border-white w-3/6 mx-auto h-full shadow-lg">
               <h2 class="font-bold mt-5 mx-auto text-3xl uppercase text-center">sign-up</h2>                        
-                <form>
+                <form class=" my-4 mx-9">
+                        <label for="email">Mail</label><br>
+                        <input type="text" id="mail" class="w-1/2 mb-5  border-2 border-gray-500 rounded-lg outline-none"><br>
+                        <label for="password">password</label><br>
+                        <input type="password" id="password" class="w-1/2 mb-5  border-2 border-gray-500 rounded-lg outline-none"><br>
                         <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname" class="w-1/2 border-2 border-green-600"><br>
+                        <input type="text" id="fname" name="fname" class="w-1/2 mb-5  border-2 border-gray-500 rounded-lg outline-none"><br>
                         <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname" class="w-1/2 border-2 border-green-600">
-                </form>
-                <form>
+                        <input type="text" id="lname" name="lname" class="w-1/2 mb-5  border-2 border-gray-500 rounded-lg outline-none"><br>
                         <label for="birthday">Birthday:</label><br>
-                        <input type="date" id="birthday" name="birthday" class="w-1/2 border-2 border-green-600">
-                      </form>
-                      <form>
-                        <label for="phone">Enter your phone number:</label><br>
-                        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="w-1/2 border-2 border-green-600">
-                      </form>                              
+                        <input type="date" id="birthday" name="birthday" class="w-1/2 mb-5  border-2 border-gray-500 rounded-lg outline-none"><br>
+                         <label for="phone">Enter your phone number:</label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="w-1/2 mb-5  border-2 border-gray-500 rounded-lg outline-none">
+                </form>
+                <div class="btn login-btn uppercase w-24 mx-auto text-center">sign-up</div>                                   
         </div> 
 </body>
 my-12 ml-9 </html>

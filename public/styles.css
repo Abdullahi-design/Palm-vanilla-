@@ -31237,6 +31237,14 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.signup-btn{
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
 @media (min-width: 768px){
   .signup-btn{
     border-width: 2px;
